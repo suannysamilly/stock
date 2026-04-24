@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(198, 211, 230);
+    min-height: 100vh;
+    margin: 0;
+    user-select: none;
+}
+
+/* MENU ESQUERDO */
+.left-container {
+    width: 300px;
+    height: 100vh;
+    position: fixed; /* melhor que absolute */
+    left: 0;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* TOPO */
+.top-container {
+    position: fixed;
+    top: 5;
+    left: 300px; /* começa depois do menu */
+    width: calc(100% - 300px); /* ocupa o resto da tela */
+    height: 80px;
+
+    background-color: white;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
